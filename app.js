@@ -3,9 +3,16 @@ const IMG = 'assets/img/', TXT = 'assets/txt/', ZIP = 'assets/projects/', CV = '
 
 /* Titles and tags of your 10 projects: replace the placeholders */
 const PROJECTS = [
-    ['Project title 1', ['C', 'Embedded']], ['Project title 2', ['Python']], ['Project title 3', ['Java']],
-    ['Project title 4', ['OCaml']], ['Project title 5', ['C++']], ['Project title 6', ['Web', 'JavaScript']],
-    ['Project title 7', ['C', 'Systems']], ['Project title 8', ['Python', 'Data']], ['Project title 9', ['Java', 'OOP']], ['Project title 10', ['Embedded', 'C']]
+    ['Forbidden Island — Board Game', ['Java', 'Swing', 'MVC']],
+    ['Ant Colony Simulation', ['C++', 'SFML', 'Simulation']],
+    ['Descent into the Pyramid 3D', ['Java', 'Processing', 'GLSL']],
+    ['Huffman Data Compression', ['OCaml', 'Algorithms']],
+    ['Interactive ePortfolio v1', ['HTML/CSS', 'JavaScript', 'Web']],
+    ['TCP & UDP Client-Server', ['C', 'Sockets', 'Networking']],
+    ['NutriCoach App', ['Java', 'Swing', 'Architecture']],
+    ['IPv4 Network Router', ['Ada', 'Networking', 'Data Structures']],
+    ['Dijkstra Pathfinding Visualizer', ['C', 'SDL2', 'Multithreading']],
+    ['Site Studio — Modular Web Builder', ['Node.js', 'Express', 'JavaScript']]
 ];
 
 /* Home cards: icon + title here, text loaded from assets/txt/carte_<page>.txt */
