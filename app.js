@@ -38,7 +38,7 @@ const BLOCKS = {
         title: 'Civic Engagement',
         intro: 'Giving time to others, through student consulting and youth supervision.',
         stem: 'engagement',
-        heads: ['Engagement 1', 'Engagement 2', 'Engagement 3']
+        heads: ['Holiday Camp Counselor', 'Volunteer Tutoring & Maraudes', 'Why Civic Engagement Matters to Me']
     }
 };
 
