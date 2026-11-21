@@ -925,8 +925,8 @@ h1.title {
 }
 
 .blk h3 {
-    font-size: 1.48rem;
-    margin-bottom: 30px;
+    font-size: 1.48rem !important;
+    margin-bottom: 20px !important;
 }
 
 .blk:nth-child(even) .img {
