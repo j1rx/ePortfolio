@@ -1,0 +1,3 @@
+Developed in **C** as part of a second-year networking course at **Université Paris-Saclay**, this project implements low-level **client-server communication** over sockets using both **TCP** and **UDP** protocols[cite: 7].
+
+It highlights the core architectural differences between connection-oriented reliable streaming (**TCP** with `listen`, `accept`, `connect`) and fast connectionless datagrams (**UDP** with `sendto` and `recvfrom`), supporting continuous multi-message exchanges and graceful session termination[cite: 7].
