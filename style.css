@@ -1008,6 +1008,10 @@ footer i {
 }
 
 @media (min-width: 1000px) {
+    .intro {
+        margin-left: 36px;
+    }
+    
     .hero {
         padding: 46px 54px;
         gap: 52px;
