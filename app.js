@@ -2,6 +2,7 @@
 const IMG = 'assets/img/', TXT = 'assets/txt/', ZIP = 'assets/projects/', CV = 'assets/cv/';
 
 /* Titles and tags of your 10 projects: replace the placeholders */
+/* Titles and tags of your 10 projects */
 const PROJECTS = [
     ['Forbidden Island — Board Game', ['Java', 'Swing', 'MVC']],
     ['Ant Colony Simulation', ['C++', 'SFML', 'Simulation']],
@@ -9,7 +10,7 @@ const PROJECTS = [
     ['Huffman Data Compression', ['OCaml', 'Algorithms']],
     ['Interactive ePortfolio v1', ['HTML/CSS', 'JavaScript', 'Web']],
     ['TCP & UDP Client-Server', ['C', 'Sockets', 'Networking']],
-    ['NutriCoach App', ['Java', 'Swing', 'Architecture']],
+    ['NutriCoach Desktop App', ['Java', 'Swing', 'Architecture']],
     ['IPv4 Network Router', ['Ada', 'Networking', 'Data Structures']],
     ['Dijkstra Pathfinding Visualizer', ['C', 'SDL2', 'Multithreading']],
     ['Site Studio — Modular Web Builder', ['Node.js', 'Express', 'JavaScript']]
