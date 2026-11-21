@@ -1,0 +1,3 @@
+Created in pairs using **Java** and **Processing**, this **3D adventure game** challenges players to navigate multi-level textured labyrinths inside an ancient pyramid while escaping a pursuing **mummy**[cite: 4].
+
+Once outside, the player enters a vast **3D open-world desert** featuring a dynamic **day/night cycle**, particle systems (wind and tornadoes), and custom **GLSL shaders** for real-time ground shadows[cite: 4].
