@@ -31,7 +31,7 @@ const BLOCKS = {
         title: 'Mobility',
         intro: 'Travelling and working abroad has shaped how I communicate, adapt and collaborate.',
         stem: 'mobilite',
-        heads: ['Mobility 1', 'Mobility 2', 'Mobility 3']
+        heads: ['Summer Camp in Italy & Slovenia', 'European Internship Search', 'Germany: Returning to My Roots']
     },
     'civic-engagement': {
         icon: 'fa-hands-holding-circle',
