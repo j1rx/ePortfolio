@@ -1,0 +1,3 @@
+Implemented in **Ada**, this project simulates a functional **IPv4 network router** capable of parsing routing tables and forwarding incoming packets according to the **longest prefix match** rule[cite: 11].
+
+Built around a generic **associative linked list (`LCA`)** data structure and 32-bit bitwise IP manipulation, the router handles default routes (`0.0.0.0`), command-line configuration, and live diagnostic commands (`table`, `stat`, `cache`)[cite: 11].
