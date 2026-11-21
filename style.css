@@ -794,6 +794,7 @@ h1.title {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
     gap: 26px;
+    align-items: center;
     background: rgba(30, 32, 38, .92);
 }
 
