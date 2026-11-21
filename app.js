@@ -50,6 +50,7 @@ const txt = f => `<div class="txt" data-txt="${f}">Loading…</div>`;
 const sh = (i, t) => `<h2 class="sh"><i class="fa-solid ${i}"></i>${t}</h2>`;
 
 /* Load every [data-txt] element from assets/txt/ with a clear fallback */
+/* Load every [data-txt] element from assets/txt/ with a clear fallback */
 async function loadTexts(root) {
     root.querySelectorAll('[data-txt]').forEach(async el => {
         const f = el.dataset.txt;
@@ -58,7 +59,7 @@ async function loadTexts(root) {
             if (!r.ok) throw 0;
             const t = (await r.text()).trim();
             if (!t) throw 0;
-            el.textContent = t;
+            el.innerHTML = esc(t).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
         } catch (e) {
             el.classList.add('ph');
             el.textContent = `Text coming soon. Add your content in ${TXT}${f} (this also appears when the site is opened locally without a server).`;
