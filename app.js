@@ -141,7 +141,7 @@ const pages = {
     },
 
     projects: () => `
-        <h1 class="title grad">Projects</h1>
+        <h1 class="title grad"><i class="fa-solid fa-code"></i> Projects</h1>
         <p class="intro txt">Ten projects from my engineering studies. Select the centre card to see the full details and download the source archive.</p>
         <div class="cf">
             <div class="stage" id="stage">
