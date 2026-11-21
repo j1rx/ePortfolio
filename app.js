@@ -24,7 +24,7 @@ const BLOCKS = {
         title: 'Interests',
         intro: 'What keeps me balanced outside of engineering: team sports, good food and quiet time by the water.',
         stem: 'interet',
-        heads: ['Handball & Sports', 'Cooking', 'Fishing & Outdoors']
+        heads: ['Handball', 'Cooking', 'Programming']
     },
     mobility: {
         icon: 'fa-earth-europe',
