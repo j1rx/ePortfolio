@@ -1,7 +1,6 @@
 /* ============ CONTENT CONFIG (edit freely) ============ */
 const IMG = 'assets/img/', TXT = 'assets/txt/', ZIP = 'assets/projects/', CV = 'assets/cv/';
 
-/* Titles and tags of your 10 projects: replace the placeholders */
 /* Titles and tags of your 10 projects */
 const PROJECTS = [
     ['Forbidden Island — Board Game', ['Java', 'Swing', 'MVC']],
