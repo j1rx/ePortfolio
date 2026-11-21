@@ -163,7 +163,7 @@ Object.entries(BLOCKS).forEach(([k, b]) => {
     pages[k] = () => `
         <h1 class="title grad"><i class="fa-solid ${b.icon}"></i> ${b.title}</h1>
         <div class="intro">${txt(`intro_${b.stem}.txt`)}</div>
-        <div>${[1, 2, 3].map(n => `<section class="glass hov blk">${img(`photo_${b.stem}_${n}.jpg`, b.heads[n - 1])}<div><h3 style="margin-bottom:10px">${b.heads[n - 1]}</h3>${txt(`description_${b.stem}_${n}.txt`)}</div></section>`).join('')}</div>`;
+        <div>${[1, 2, 3].map(n => `<section class="glass hov blk">${img(`photo_${b.stem}_${n}.jpg`, b.heads[n - 1])}<div><h3>${b.heads[n - 1]}</h3>${txt(`description_${b.stem}_${n}.txt`)}</div></section>`).join('')}</div>`;
 });
 
 /* ============ ROUTER ============ */
