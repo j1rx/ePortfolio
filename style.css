@@ -228,11 +228,6 @@ nav {
         padding: 13px 16px;
         border-radius: 10px;
     }
-    
-    .intern {
-        max-width: 88%;
-        margin-left: auto;
-    }
 }
 
 /* layout */
@@ -1074,7 +1069,7 @@ footer i {
 
     .intern {
         max-width: 88%;
-        margin-left: auto;
+        margin-inline: auto;
     }
 
     .blk {
