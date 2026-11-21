@@ -136,6 +136,7 @@ nav {
 }
 
 .logo {
+    font-size: 1.08rem;
     font-weight: 700;
     letter-spacing: .9px;
     display: flex;
@@ -159,7 +160,7 @@ nav {
     display: block;
     padding: 8px 14px;
     border-radius: 99px;
-    font-size: .88rem;
+    font-size: .96rem;
     font-weight: 500;
     color: var(--t2);
     border: 1px solid transparent;
@@ -186,7 +187,7 @@ nav {
     width: 42px;
     height: 42px;
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: .25s;
 }
@@ -267,7 +268,7 @@ main {
 }
 
 h1.title {
-    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    font-size: clamp(1.75rem, 4vw, 2.35rem);
     font-weight: 700;
     margin-bottom: 8px;
 }
@@ -284,7 +285,7 @@ h1.title {
 }
 
 .sh {
-    font-size: .95rem;
+    font-size: 1.05rem;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -304,7 +305,7 @@ h1.title {
 .txt {
     color: var(--t2);
     line-height: 1.7;
-    font-size: .96rem;
+    font-size: 1.06rem;
     white-space: pre-line;
 }
 
@@ -328,7 +329,7 @@ h1.title {
     height: 190px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid rgba(223, 126, 113, .5);
+    border: 2px solid rgba(223, 126, 113, .55);
     background: linear-gradient(145deg, rgba(217, 107, 138, .16), rgba(228, 147, 94, .14));
     box-shadow: 0 10px 26px rgba(0, 0, 0, .35);
     transition: .35s;
@@ -352,12 +353,13 @@ h1.title {
 }
 
 .hero h1 {
-    font-size: clamp(1.9rem, 5vw, 2.8rem);
+    font-size: clamp(2.05rem, 5vw, 2.95rem);
     letter-spacing: 1.5px;
     font-weight: 700;
 }
 
 .role {
+    font-size: 1.08rem;
     color: var(--coral);
     font-weight: 600;
     margin: 6px 0 14px;
@@ -382,7 +384,7 @@ h1.title {
 }
 
 .nc i {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-bottom: 18px;
     display: block;
     background: var(--grad);
@@ -396,12 +398,12 @@ h1.title {
 }
 
 .nc h3 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     margin-bottom: 12px;
 }
 
 .nc .txt {
-    font-size: .95rem;
+    font-size: 1.04rem;
 }
 
 /* buttons */
@@ -412,7 +414,7 @@ h1.title {
     padding: 12px 22px;
     border-radius: 99px;
     font-weight: 600;
-    font-size: .9rem;
+    font-size: .98rem;
     border: 1px solid rgba(223, 126, 113, .5);
     color: var(--t1);
     background: rgba(255, 255, 255, .05);
@@ -483,23 +485,24 @@ h1.title {
 
 .tli b {
     display: block;
+    font-size: 1.06rem;
 }
 
 .tli .d {
     color: var(--coral);
-    font-size: .82rem;
+    font-size: .90rem;
     font-weight: 500;
 }
 
 .tli .p {
     color: var(--orange);
-    font-size: .86rem;
+    font-size: .94rem;
     margin-top: 2px;
 }
 
 .tli p {
     color: var(--t2);
-    font-size: .86rem;
+    font-size: .94rem;
     line-height: 1.5;
     margin-top: 3px;
 }
@@ -511,7 +514,7 @@ h1.title {
 .bar .m {
     display: flex;
     justify-content: space-between;
-    font-size: .85rem;
+    font-size: .94rem;
     color: var(--t2);
     margin-bottom: 5px;
 }
@@ -535,7 +538,7 @@ h1.title {
     display: inline-block;
     padding: 6px 14px;
     border-radius: 99px;
-    font-size: .84rem;
+    font-size: .92rem;
     background: rgba(255, 255, 255, .05);
     border: 1px solid rgba(223, 126, 113, .3);
     margin: 0 8px 8px 0;
@@ -548,7 +551,7 @@ h1.title {
 }
 
 .lang {
-    font-size: .9rem;
+    font-size: .98rem;
     color: var(--t2);
     margin-bottom: 8px;
 }
@@ -560,6 +563,7 @@ h1.title {
 
 .lang small {
     display: block;
+    font-size: .86rem;
     color: var(--t3);
 }
 
@@ -571,8 +575,12 @@ h1.title {
     background: linear-gradient(135deg, rgba(217, 107, 138, .14), rgba(228, 147, 94, .14));
 }
 
+.intern b {
+    font-size: 1.08rem;
+}
+
 .intern > i {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: var(--orange);
 }
 
@@ -658,7 +666,7 @@ h1.title {
     display: grid;
     place-items: center;
     font-weight: 700;
-    font-size: .85rem;
+    font-size: .92rem;
     background: var(--grad);
     color: #1a1114;
     z-index: 2;
@@ -688,7 +696,7 @@ h1.title {
 }
 
 .cap h2 {
-    font-size: clamp(1.05rem, 2.6vw, 1.5rem);
+    font-size: clamp(1.15rem, 2.6vw, 1.6rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -697,7 +705,7 @@ h1.title {
 
 .cnt {
     flex: none;
-    font-size: .85rem;
+    font-size: .92rem;
     font-weight: 600;
     color: var(--t1);
     padding: 2px 10px;
@@ -712,7 +720,7 @@ h1.title {
 }
 
 .tag {
-    font-size: .74rem;
+    font-size: .82rem;
     font-weight: 500;
     color: var(--orange);
     background: rgba(228, 147, 94, .11);
@@ -744,7 +752,7 @@ h1.title {
     background: rgba(255, 255, 255, .05);
     color: var(--t1);
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.08rem;
     transition: .3s;
 }
 
@@ -757,7 +765,7 @@ h1.title {
 
 .hint {
     color: var(--t3);
-    font-size: .8rem;
+    font-size: .88rem;
     text-align: center;
     margin-top: 14px;
 }
@@ -790,7 +798,7 @@ h1.title {
 }
 
 .mbox h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
@@ -902,7 +910,7 @@ h1.title {
     inset: 0;
     display: grid;
     place-items: center;
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: rgba(255, 255, 255, .2);
 }
 
@@ -913,6 +921,10 @@ h1.title {
     align-items: center;
     padding: 22px;
     margin-bottom: 22px;
+}
+
+.blk h3 {
+    font-size: 1.25rem;
 }
 
 .blk:nth-child(even) .img {
@@ -943,7 +955,7 @@ footer a, footer li span {
     display: flex;
     align-items: center;
     gap: 9px;
-    font-size: .88rem;
+    font-size: .96rem;
     color: var(--t2);
     transition: .25s;
 }
@@ -962,7 +974,7 @@ footer i {
 .copy {
     width: 100%;
     color: var(--t3);
-    font-size: .78rem;
+    font-size: .86rem;
 }
 
 @media (max-width: 760px) {
