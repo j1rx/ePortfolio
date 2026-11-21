@@ -1,0 +1,3 @@
+Designed and built from scratch using **HTML5**, **CSS3**, and **vanilla JavaScript**, this first version of my personal **ePortfolio** showcases my academic background, projects, and downloadable CV within a clean, **responsive interface**[cite: 6].
+
+A key feature of this project is a custom **JavaScript dynamic translation engine**, allowing visitors to switch seamlessly between French and English without reloading the page, alongside an embedded **10-second video pitch** optimised for fast web loading[cite: 6].
