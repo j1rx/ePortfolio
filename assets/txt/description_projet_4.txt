@@ -1,0 +1,3 @@
+Implemented in **OCaml**, this project focuses on lossless data compression and decompression using the **Huffman coding algorithm**[cite: 5].
+
+The program analyses character frequencies in input data, dynamically constructs an optimal **binary Huffman tree**, generates prefix-free binary codes, and reconstructs the original data without loss[cite: 5]. *(Source archive currently being finalised for the next update[cite: 5].)*
