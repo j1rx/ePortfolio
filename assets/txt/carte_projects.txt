@@ -1,0 +1,8 @@
+3D adventure game in Java (Processing) where you descend a pyramid maze before exploring an open-world desert.
+(2025)
+
+Java strategy game inspired by Forbidden Island, where players cooperate to win and leave the island.
+(2025)
+
+Implementation in OCaml of the Huffman compression algorithm (file compression/decompression).
+(2025)
