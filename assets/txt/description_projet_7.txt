@@ -1,0 +1,3 @@
+Built by a team of seven engineering students at **INP-ENSEEIHT**, **NutriCoach** is a comprehensive **Java Swing** desktop assistant designed to balance **nutrition, physical activity, and metabolic tracking** without guilt[cite: 10].
+
+Serving as lead developer for the **Swing GUI and module integration**, I helped connect multiple components—including calorie calculators, adaptive recipe scaling, smart workout scheduling, and a **BlindMode** (built with **Singleton, Strategy, and Observer** design patterns) that replaces anxiety-inducing numbers with qualitative feedback[cite: 10].
