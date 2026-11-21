@@ -1,0 +1,3 @@
+Developed in pairs during my second year at **Université Paris-Saclay**, this project is a digital adaptation of the cooperative board game **Forbidden Island** built in **Java** using a strict **MVC (Model-View-Controller)** architecture[cite: 2].
+
+Players explore a randomly generated island, drain flooded tiles, trade keys, and use unique character abilities (**Navigator, Pilot, Messenger, Diver**) before the island sinks completely[cite: 2]. The game features both a **terminal mode** for logic testing and a fully clickable **Java Swing GUI** with a custom **pixel-art aesthetic** inspired by Nintendo DS games[cite: 2].
