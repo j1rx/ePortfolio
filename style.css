@@ -228,6 +228,11 @@ nav {
         padding: 13px 16px;
         border-radius: 10px;
     }
+    
+    .intern {
+        max-width: 88%;
+        margin-left: auto;
+    }
 }
 
 /* layout */
