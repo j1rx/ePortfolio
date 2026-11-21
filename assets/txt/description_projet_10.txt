@@ -1,0 +1,3 @@
+**Site Studio** is a local **full-stack visual website builder** powered by a **Node.js / Express** backend and a **vanilla JavaScript** three-column workspace[cite: 8].
+
+Users can create multi-page showcase websites from **15 modular section templates**, customise themes, colors, and fonts, upload local images and documents, preview changes live in **desktop and mobile viewports**, and compile everything into standalone **HTML/CSS/JS** files[cite: 8].
